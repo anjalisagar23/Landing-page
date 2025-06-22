@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #7416d1;
+    }
+/*header*/
+    header {
+      background: rgb(247, 214, 114);
+      color: #fff;
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 40%;
+      margin-bottom: 15px;
+      border: 3px solid #fefbfb;
+    }
+
+     nav a {
+      color: black;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #f78205;
+    }
+/*hero*/
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url(im3.jpg) no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 30px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+
+    .hero button {
+      padding: 12px 25px;
+      border: none;
+      background: rgb(247, 214, 114);
+      color: black;
+      font-size: 1rem;
+      margin: 10px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #d08b02;
+    }
+/*service*/
+    .services {
+      background: url(im6.jpg) center center/cover;
+      padding: 60px 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .service h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      text-shadow: 1px 1px 5px black;
+    }
+
+    .service-boxes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .box {
+      background: rgb(216, 163, 5);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 25px;
+      width: 280px;
+      box-shadow: 0 4px 10px black;
+      backdrop-filter: blur(6px);
+    }
+
+    .box h3 {
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .box p {
+      font-size: 1rem;
+      color: black;
+    }
+
+    .box img {
+      width: 190px;
+      height: 190px;
+      margin-bottom: 15px;
+    }
+    /*about*/
+    .about {
+      background: url(im13.webp) no-repeat center center/cover;
+      padding: 60px 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .about h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+/*footer*/
+    footer {
+      background: black;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+<!--header-->
+  <header>
+    <img src="im8.jpg" alt="Logo" class="logo"> 
+    <nav>
+      <a href="#">Destinations</a>
+      <a href="#">Holiday Ideas</a>
+      <a href="#">Packages</a>
+      <a href="#">Places to Stay</a>
+       <a href="#">Weekend Getaways</a>
+    </nav>
+  </header>
+ <!--hero-->
+  <section class="hero">
+    <h2>Let us plan you a perfect India Holidayy</h2>
+    <p>Tour My India, one of the best travel agencies in India, offers custom-crafted tour packages for unforgettable holiday experiences across the country</p>
+    <button>Read More</button>
+    <button>Contact Us</button>
+  </section>
+<!--service-->
+   <section class="services">
+    <h2>Explore Top Destinations by Region</h2>
+    <div class="service-boxes">
+      <div class="box">
+        <img src="jammu.jpg" alt="support" />
+        <h3>Jammu & Kashmir</h3>
+        <p>30+ Packages</p>
+      </div>
+      <div class="box">
+        <img src="himachal.jpg" alt="support" />
+        <h3>Himachal</h3>
+        <p>60+ Packages</p>
+      </div>
+      <div class="box">
+        <img src="uttrakand.jpg" alt="support" />
+        <h3>Uttar Pradesh</h3>
+        <p>25+ Packages</p>
+      </div>
+    </div>
+  </section>
+
+  <!--service-->
+  <section class="services">
+    <h2>Guest Satisfaction is Our Goal;
+      Valuable Feedback Matters to Us</h2>
+    <div class="service-boxes">
+      <div class="box">
+         <img src="im11.webp" alt="support" />
+        <h3>Nice experience....</h3>
+        <p>Tour of Do Dham - Yamunotri & Gangotri for 7 days from 10.05.22 to 16.05.22 Overall arrangements were very good.</p>
+      </div>
+      <div class="box">
+         <img src="im12.webp" alt="support" />
+        <h3>Amazing Jungle Safari Experience at Ranthambore National Park</h3>
+        <p> We appreciated this extra care attention to what we needed! Although we did not get to see any tigers, we did enjoy our visit to Ranthambore National Park!</p>
+      </div>
+      <div class="box">
+         <img src="jammu.jpg" alt="support" />
+        <h3>Jammu and Kashmir along with Leh Ladakh</h3>
+        <p>I will definitely start planning my next trip with Tour My India guided.</p>
+      </div>
+    </div>
+  </section>
+
+<!--about-->
+  <section class="about">
+    <h2>About Incredible India</h2>
+    <p>Interesting and Intriguing, India offers incredible holiday experiences through its cultural, topography, and wildlife diversity. With these amazing and unique experiences, this south Asian country conveniently finds its way into the world tourism map as one of the finest destinations for a holistic vacation. India establishes its identity as the country of architectural masterpieces, making it an ideal travel destination to plan a heritage tour in the world. While Taj Mahal makes for the major draw on an India tour, there are a plethora of monuments and edifices in every India travel guide displaying the fine architecture and grandiose of different eras in the country.
+The diverse Indian topography adorned with the impressive Himalayas; long stretches of coastline; expansive hot, cold and white salt deserts; dense forests; alpine meadows and lakes; and scenic waterfalls pique the tourists’ interest. Along with the best nature sightseeing tours, India offers an opportunity to visitors to have a little adventure of their own. The numerous spell-binding and less-trodden trails give trekking tour opportunities in South Asia unlike any other.</p>
+  </section>
+
+<!--footer-->
+  <footer>
+    <p>© 2025 Anjali Sagar | All rights reserved</p>
+  </footer>
+
+</body>
+</html>
