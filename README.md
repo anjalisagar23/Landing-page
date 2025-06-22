@@ -1,6 +1,6 @@
 # Landing-page
 I have successfully completed task 1 of level 1 as a "Web Development" virtual internship assigned by CodSoft. 👍 
-hashtag#codsoft hashtag#html hashtag#css hashtag#internship hashtag#webdevelopment
+#codsoft #html #css #internship #webdevelopment
 
 Task details:
 May Batch B30
